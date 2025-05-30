@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+  background-color: aqua;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    background-color: orange;
+    padding: 10px;
+  }
+}
+
+.features {
+  //   padding: 40px 20px;
+  text-align: center;
+  ul {
+    margin: 0px !important;
+    padding: 0px !important;
+    li {
+        list-style-type: none;
+        background-color: bisque;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        display: inline;
+    }
+  }
+}

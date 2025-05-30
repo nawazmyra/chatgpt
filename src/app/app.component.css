@@ -1,0 +1,19 @@
+.container {
+  div:first-child {
+    background-color: orange;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    /* border: 30px solid black; */
+  }
+  div:last-child {
+    background-color: red;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .class1 {
+    background: green;
+  }
+}
